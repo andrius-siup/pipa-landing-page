@@ -67,8 +67,58 @@ nav ul {
 main {
   font-size: 1rem;
 }
+.modes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* A shorthand for row-gap and column-gap */
+  gap: 2rem 1rem;
+  justify-items: center;
+  align-items: stretch;
+}
+.cards {
+  max-width: 30rem;
+  background-color: #fafafa;
+  border: 2px solid #eee;
+  padding: 1rem;
+
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  /* justify-content: center; */
+  align-items: center;
+
+  /* background-image: url("https://www.denofgeek.com/wp-content/uploads/2019/05/rainbow_six_siege.jpg?resize=768%2C432"); */
+}
+
+.cards h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.6rem;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .cards p {
+  color: #fff;
+} */
+
+.card-img {
+  /* max-width: 30rem;
+  height: fit-content; */
+  width: 100%;
+  height: 20rem;
+  /* background-size: cover; */
+  /* image-rendering: high-quality; */
+  image-rendering: pixelated;
+}
 
 /* Fortnite  */
-.sub-title {
+/* .sub-title {
   font-weight: 500;
-}
+} */
