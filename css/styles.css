@@ -82,13 +82,15 @@ h1 {
 #about_me {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 80vh;
   /* margin: 0 30rem; */
   /* background-color: #eee; */
-  background-image: url("https://static.voidu.com/cdn-cgi/image/format=auto,width=1170,quality=75/images/thumbs/0046697_tom-clancys-rainbow-six-siege-row.jpeg");
+  background-image: url("https://store-images.s-microsoft.com/image/apps.30809.65170969132831011.6c6c3131-3fae-40e0-b990-333548e1d2f9.00d6a418-ec0a-4ed4-aaf3-cf5e243cf52e?mode=scale&q=90&h=720&w=1280");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* object-fit: contain; */
 }
 
 h2 {
