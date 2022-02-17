@@ -13,9 +13,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header img {
+/* header img {
   background-image: (https://express.adobe.com/post/qBWPj2J4HuUds/);
-}
+} */
 
 nav {
   width: 100%;
@@ -80,8 +80,15 @@ h1 {
 }
 
 #about_me {
-  margin: 0 30rem;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* margin: 0 30rem; */
   /* background-color: #eee; */
+  background-image: url("https://static.voidu.com/cdn-cgi/image/format=auto,width=1170,quality=75/images/thumbs/0046697_tom-clancys-rainbow-six-siege-row.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
