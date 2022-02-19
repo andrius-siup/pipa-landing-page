@@ -44,8 +44,13 @@ nav {
   top: 0;
 }
 
-#logo {
+/* #logo {
   font-size: 3rem;
+} */
+
+#logo img {
+  max-width: 18rem;
+  height: 4rem;
 }
 
 nav ul {
@@ -288,6 +293,19 @@ iframe {
   padding: 0.8rem;
   font-size: 1.2rem;
   border-radius: 9px;
+}
+
+footer {
+}
+
+.footer-logo img {
+  max-width: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media only screen and (max-width: 1700px) {
