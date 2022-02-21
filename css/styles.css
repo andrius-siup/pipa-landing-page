@@ -78,7 +78,7 @@ nav ul {
 .nav-link:focus {
   outline-color: transparent;
   outline-style: solid;
-  box-shadow: 0 0 0 4px #5a01a7;
+  box-shadow: 0 0 0 2px #add8e6;
 }
 
 .nav-link:active {
@@ -302,6 +302,12 @@ footer {
   background-color: #fafafa;
 }
 
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
 .footer-logo img {
   max-width: 15rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -310,16 +316,50 @@ footer {
 .logo-col {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1rem;
+}
+
+.nav-col ul {
+  list-style-type: none;
+}
+
+.nav-col .nav-link {
+  padding: 0.1rem 0.2rem;
+}
+
+.soc-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  column-gap: 1rem;
+}
+
+.soc-links li a {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  overflow: hidden;
+  background-color: #fafafa;
+  color: #999;
+  border: 1px solid transparent;
+  border-radius: 9px;
+}
+
+.soc-links li a:hover {
+  transition: 0.3s;
+  color: #fff;
+  background-color: #333;
+}
+
+.soc-links li a:focus {
+  /* padding: 0.5rem 0; */
+  background-color: #add8e6;
+  color: #fff;
 }
 
 .logo-col p {
   font-size: 1rem;
-}
-
-.footer .container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  align-self: center;
 }
 
 @media only screen and (max-width: 1700px) {
