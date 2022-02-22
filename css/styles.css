@@ -632,3 +632,41 @@ address p {
     font-weight: 300;
   }
 }
+
+@media only screen and (max-width: 860px) {
+  nav ul {
+    gap: 0.1rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  #about-me p {
+    font-size: 1rem;
+  }
+
+  .game-play-img {
+    width: 22rem;
+  }
+
+  .game-play-1 p {
+    height: 12rem;
+  }
+
+  .cards {
+    gap: 1.2rem;
+  }
+
+  .card-img {
+    height: 12rem;
+  }
+
+  #form input {
+    width: 36rem;
+  }
+
+  #form button {
+    width: 22rem;
+  }
+}
