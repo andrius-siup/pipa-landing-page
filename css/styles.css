@@ -855,11 +855,111 @@ address p {
   .subscribe {
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
+  }
+
+  .subscribe-form p {
+    display: none;
   }
   .address {
     grid-row: 4;
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  section {
+    padding: 7rem 0.8rem;
+  }
+
+  .about-me {
+    font-size: 0.9rem;
+    bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .main-section header {
+    margin-bottom: 2rem;
+  }
+
+  #rainbow_six_siege h3 {
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .game-play-1 {
+    row-gap: 2rem;
+  }
+
+  .game-play-1 p {
+    font-size: 0.9rem;
+  }
+
+  .game-play-img {
+    width: 18rem;
+  }
+
+  #game-modes {
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+
+  #game-modes h2 {
+    text-align: center;
+    padding-bottom: 1.6rem;
+  }
+
+  .cards h3 {
+    padding: 1rem;
+  }
+
+  .cards p {
+    font-size: 0.9rem;
+  }
+
+  #videos p {
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+  }
+
+  #videos h2 {
+    padding-bottom: 1.6rem;
+  }
+
+  .video {
+    row-gap: 2rem;
+  }
+
+  iframe {
+    max-width: 18rem;
+    height: 9.8rem;
+  }
+
+  #teammate h2 {
+    padding-bottom: 1.6rem;
+  }
+
+  #teammate p {
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+
+  #form input {
+    width: 16rem;
+    font-size: 0.9rem;
+  }
+
+  #form button {
+    width: 8rem;
+    font-size: 0.9rem;
+  }
+
+  #subscribe-form input {
+    width: 16rem;
   }
 }
