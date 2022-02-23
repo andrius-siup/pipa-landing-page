@@ -548,6 +548,12 @@ address p {
     height: 17rem;
   }
 
+  .last-card-odd {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 47.06%;
+  }
+
   .modes {
     grid-template-columns: repeat(2, 1fr);
   }
