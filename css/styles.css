@@ -621,12 +621,19 @@ address p {
     justify-items: ;
   }
 
-  .container .nav-col {
+  /* .container .nav-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .explore,
+  .legal,
+  .address {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .nav-col h4 {
     padding-bottom: 1rem;
     font-weight: 300;
@@ -736,5 +743,45 @@ address p {
 
   #subscribe-form input {
     width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  nav {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 8rem 2.6rem;
+  }
+
+  .about-me {
+    right: 0;
+  }
+
+  #logo img {
+    height: 2rem;
+  }
+
+  .game-play-img {
+    width: 25rem;
+  }
+
+  .game-play-1 p {
+    height: 10rem;
+    max-width: 26rem;
+  }
+
+  iframe {
+    max-width: 25rem;
+    height: 14rem;
+  }
+
+  #form input {
+    width: 25rem;
+  }
+
+  #form button {
+    width: 15rem;
   }
 }
