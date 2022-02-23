@@ -642,8 +642,9 @@ address p {
     font-size: 1rem;
   }
 
-  #about-me p {
+  .about-me {
     font-size: 1rem;
+    bottom: 5%;
   }
 
   .game-play-img {
@@ -668,5 +669,72 @@ address p {
 
   #form button {
     width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #logo img {
+    height: 2rem;
+  }
+
+  .game-play-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .game-play-img {
+    width: 27rem;
+  }
+
+  .reverse-column {
+    grid-row: 1;
+  }
+
+  .reverse-column-2 {
+    grid-row: 5;
+  }
+
+  .modes {
+    grid-template-columns: 1fr;
+  }
+
+  .card-img {
+    /* height: 22rem; */
+    max-width: 27rem;
+    height: 50%;
+  }
+
+  .cards p {
+    height: 9rem;
+    max-width: 27rem;
+    overflow: auto;
+  }
+
+  #form input {
+    width: 33rem;
+  }
+
+  #form button {
+    width: 20rem;
+  }
+
+  .footer .container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+  .subscribe {
+    /* order: span 0 / -1; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  /* Rverse footer row 2 */
+  .address {
+    grid-row: 2 / span 1;
+  }
+
+  #subscribe-form input {
+    width: 20rem;
   }
 }
