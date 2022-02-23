@@ -624,7 +624,6 @@ address p {
     grid-template-columns: auto 1fr auto;
     column-gap: 2rem;
     row-gap: 2rem;
-    justify-items: ;
   }
 
   /* .container .nav-col {
