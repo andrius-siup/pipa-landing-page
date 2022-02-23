@@ -787,6 +787,38 @@ address p {
 }
 
 @media only screen and (max-width: 468px) {
+  section {
+    padding: 8rem 0.8rem;
+  }
+
+  .game-play-img {
+    width: 21rem;
+  }
+
+  .game-play-1 p {
+    /* height: 10rem;
+    max-width: 27rem; */
+    padding: 1rem;
+  }
+
+  iframe {
+    max-width: 20rem;
+    height: 11.4rem;
+  }
+
+  #form input,
+  #form button {
+    padding: 0.4rem;
+  }
+
+  #form input {
+    width: 20rem;
+  }
+
+  #form button {
+    width: 10rem;
+  }
+
   footer {
     font-size: 1rem;
     padding: 1rem;
