@@ -89,6 +89,25 @@ nav ul {
   background-color: #eee;
 }
 
+/*----------------------------- Mobile navigation */
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 2rem;
+  width: 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+.fa-times {
+  display: none;
+}
+
 main {
   font-size: 1rem;
 }
@@ -794,6 +813,18 @@ address p {
 @media only screen and (max-width: 468px) {
   section {
     padding: 8rem 0.8rem;
+  }
+
+  #nav-bar {
+    flex-direction: row;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
   }
 
   .game-play-img {
