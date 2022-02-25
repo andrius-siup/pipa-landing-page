@@ -7,8 +7,13 @@
   margin: 0;
 }
 
+/* html {
+  overflow-x: hidden;
+} */
+
 header {
   margin-bottom: 4rem;
+  position: relative;
 }
 
 body {
@@ -17,6 +22,8 @@ body {
   font-family: "Roboto", sans-serif;
   /* background-color: #fafafa; */
   color: #326655;
+
+  overflow-x: hidden;
 }
 
 /* header img {
@@ -103,7 +110,7 @@ nav ul {
   color: #333;
   font-size: 2rem;
 }
-
+/* Hode close button */
 .fa-times {
   display: none;
 }
@@ -817,14 +824,64 @@ address p {
 
   #nav-bar {
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    z-index: 9999;
+    transition: all 0.5s ease-in;
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1. Hide it visually*/
+    opacity: 0;
+    /*2. Make it unaccessible to mouse and keybord */
+    pointer-events: none;
+
+    /* 3. Hide it from screen readers*/
+    visibility: hidden;
+  }
+
+  .nav-open #nav-bar {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .fa-times {
+    display: block;
+    /* dar nezn*/
+    /* transform: translateX(100%);  */
+  }
+
+  .nav-open .fa-bars {
+    display: none;
   }
 
   .btn-mobile-nav {
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    z-index: 9999;
   }
 
   nav ul {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
   }
 
   .game-play-img {
