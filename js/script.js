@@ -27,12 +27,17 @@ allLinks.forEach(function (link) {
         top: 0,
         behavior: "smooth",
       });
-
+    // Scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       // console.log(href);
       const sectionEl = document.querySelector(href);
       // console.log(sectionEl);
       sectionEl.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // Close mobile navigation
+    if (link.classList.contains("nav-link")) {
+      headerEl.classList.toggle("nav-open");
     }
   });
 });
