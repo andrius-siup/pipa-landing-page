@@ -731,12 +731,14 @@ address p {
   header {
     height: 5rem;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   #logo img {
     height: 3rem;
+    padding-left: 1.6rem;
   }
 
   #nav-bar {
@@ -784,9 +786,10 @@ address p {
 
   .btn-mobile-nav {
     display: block;
-    position: absolute;
+    /* position: absolute;
     top: auto;
-    right: 4%;
+    right: 4%; */
+    padding-right: 1.6rem;
 
     z-index: 9999;
   }
