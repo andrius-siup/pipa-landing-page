@@ -36,30 +36,20 @@ body {
 /* ----------------------------------------- Navbar */
 
 nav {
-  /* width: 100%; */
   height: 3rem;
   font-size: 1.3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /* padding-left: 1rem; */
 
   background-color: #fafafa;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 
-  /* margin-bottom: 4.8rem; */
-  /* position: fixed; */
   top: 0;
 }
-
-/* #logo {
-  font-size: 3rem;
-} */
 
 #logo img {
   max-width: 18rem;
@@ -69,8 +59,6 @@ nav {
 nav ul {
   display: flex;
   gap: 3rem;
-  /*   justify-content: flex-end; */
-  /*   justify-content: space-between; */
   list-style-type: none;
 }
 
@@ -113,7 +101,7 @@ nav ul {
   color: #333;
   font-size: 2rem;
 }
-/* Hode close button */
+/* Hide close button */
 .fa-times {
   display: none;
 }
@@ -151,18 +139,15 @@ h1 {
 #about_me {
   margin: 0;
   padding: 0;
-  /* padding-top: 4rem; */
   margin-top: 5rem;
   height: 100vh;
   width: 100vw;
-  /* margin: 0 30rem; */
   /* background-color: #eee; */
   background-image: url("https://store-images.s-microsoft.com/image/apps.30809.65170969132831011.6c6c3131-3fae-40e0-b990-333548e1d2f9.00d6a418-ec0a-4ed4-aaf3-cf5e243cf52e?mode=scale&q=90&h=720&w=1280");
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* object-fit: contain; */
   position: relative;
 }
 
@@ -171,12 +156,8 @@ h1 {
   background-color: rgba(0, 0, 0, 0.07);
   border-radius: 11px;
   padding: 1rem;
-  /* min-width: 30rem; */
   max-width: 30rem;
   height: 20rem;
-  /* padding-top: 30rem;
-  padding-left: 75rem;
-  padding-right: 5rem; */
 
   font-size: 1.2rem;
   position: absolute;
@@ -213,8 +194,6 @@ h1 {
   line-height: 1.5em;
 
   place-self: center;
-  /* justify-self: center;
-  align-self: center; */
 }
 
 .game-play-img {
@@ -226,8 +205,6 @@ h1 {
   transition: 0.3s;
 
   place-self: center;
-  /* justify-self: center;
-  align-self: center; */
 }
 
 /* ----------------------------------------- Modes */
@@ -260,7 +237,6 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  /* justify-content: center; */
   align-items: center;
 
   /* background-image: url("https://www.denofgeek.com/wp-content/uploads/2019/05/rainbow_six_siege.jpg?resize=768%2C432"); */
@@ -280,8 +256,6 @@ h1 {
   width: 100%;
   height: 17rem;
   background-color: #eee;
-  /* background-size: cover; */
-  /* image-rendering: high-quality; */
   image-rendering: pixelated;
 
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
@@ -537,10 +511,6 @@ address p {
   transition: 0.3s;
 }
 
-/* #subscribe-form input {
-  padding: 0.2rem 0;
-} */
-
 @media only screen and (max-width: 1700px) {
   .game-play-1 {
     row-gap: 3rem;
@@ -655,6 +625,10 @@ address p {
     overflow: auto;
   }
 
+  #videos p {
+    font-size: 1rem;
+  }
+
   #form input {
     width: 40rem;
   }
@@ -668,12 +642,6 @@ address p {
     column-gap: 2rem;
     row-gap: 2rem;
   }
-
-  /* .container .nav-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
 
   .explore,
   .legal,
@@ -736,6 +704,10 @@ address p {
     justify-content: space-between;
   }
 
+  section {
+    padding: 6rem 3.6rem;
+  }
+
   #logo img {
     height: 3rem;
     padding-left: 1.6rem;
@@ -786,9 +758,6 @@ address p {
 
   .btn-mobile-nav {
     display: block;
-    /* position: absolute;
-    top: auto;
-    right: 4%; */
     padding-right: 1.6rem;
 
     z-index: 9999;
@@ -799,10 +768,6 @@ address p {
     flex-direction: column;
     gap: 1.6rem;
   }
-
-  /* nav ul li a {
-    font-size: 1.6rem;
-  } */
 
   #nav-bar .nav-link {
     font-size: 1.6rem;
@@ -912,8 +877,6 @@ address p {
   }
 
   .game-play-1 p {
-    /* height: 10rem;
-    max-width: 27rem; */
     padding: 1rem;
   }
 
@@ -951,9 +914,6 @@ address p {
   }
 
   .logo-col {
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
-    /* grid-row: 1; */
     grid-column-start: 1;
     grid-column-end: 3;
   }
@@ -987,6 +947,10 @@ address p {
 @media only screen and (max-width: 360px) {
   section {
     padding: 7rem 0.8rem;
+  }
+
+  #logo img {
+    height: 2.6rem;
   }
 
   .about-me {
