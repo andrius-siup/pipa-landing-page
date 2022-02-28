@@ -805,6 +805,10 @@ address p {
     overflow: auto;
   }
 
+  .last-card-odd {
+    width: auto;
+  }
+
   #form input {
     width: 33rem;
   }
