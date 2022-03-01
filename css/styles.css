@@ -898,6 +898,9 @@ address p {
 }
 
 @media only screen and (max-width: 468px) {
+  #logo {
+    width: 12rem;
+  }
   section {
     padding: 8rem 0.8rem;
   }
