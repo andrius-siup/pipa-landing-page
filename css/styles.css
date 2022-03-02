@@ -239,8 +239,10 @@ h1 {
 }
 .cards {
   max-width: 30rem;
-  background-color: #fafafa;
-  border: 2px solid #eee;
+  /* background-color: #fafafa; */
+  /* border: 2px solid #eee; */
+  background-color: #d8fff2;
+  border: 3px solid #bfffea;
   padding: 1rem;
 
   border-radius: 9px;
